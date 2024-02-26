@@ -15,3 +15,9 @@ Automate IT infrastructure using Ansible and AWX (Tutorial Walkthrough)
 
 Note: Perform the following steps to install the prerequisites of Ansible and AWX using RHEL 7 or above
 
+Step 1: Enable firewall
+``` #systemctl enable firewalld```
+
+Step 2: Start firewall
+``` #systemctl start firewalld```
+
